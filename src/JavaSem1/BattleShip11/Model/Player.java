@@ -1,0 +1,33 @@
+package BattleShip11.Model;
+
+import BattleShip11.Model.Fleet;
+import BattleShip11.View.Ocean;
+
+//This class is used to write the function to play the game
+public class Player extends Fleet {
+
+    public String player;
+    public Ocean o;
+    public Ocean spo;
+    public char Hit;
+    public char Miss;
+
+    public Player() {
+    }
+
+    //This function is used to play the game
+    public Player(Ocean ocean, String Player, char Hit, char Miss) {
+        this.o = ocean;
+        this.player = Player;
+        this.Hit = Hit;
+        this.Miss = Miss;
+    }
+
+    //This function is used to play the game.
+
+
+
+
+
+
+}
