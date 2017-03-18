@@ -1,4 +1,14 @@
-package AlgorithmsHW.HW3;
+/*
+Given is a sequence of n symbols, each of which is either a dot (.) or a dash (-). This
+can represent a sequence of letters in Morse code. However, since the separation between
+letters is not given, it can represent a number of different sequences. For example, . - -
+could represent ETT, AT, EM, or W.
+Give an O(n) algorithm that computes the number of possible letter sequences con-
+taining only vowels (A,E,I,O,U) that can be derived from the given input sequence of
+dots and dashes. As your argument of correctness, state all three parts of the heart of your
+solution (see below).
+*/
+
 
 import java.util.HashMap;
 import java.util.Scanner;
